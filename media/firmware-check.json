@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 14,
   "exit": "App io.ncoooooper.mergewindow exited: finished; heap peak 81.9 of 128 KiB",
-  "sha256": "50ebb9073b0461a94bf336ddf72c00fab9da629e781064c9cbc5b96ecce74bc0",
+  "sha256": "598bd692f3a740c57136355addb1978682996e9d4b9da4aa93b24ddeb1ce9a08",
   "pages": [
     {
       "caption": "MERGE WINDOW",
@@ -38,5 +38,24 @@
       "1 checks passed"
     ],
     "fraction": 1
+  },
+  "display_test": {
+    "firmware": "1.3.1",
+    "input": "Recorded companion readings",
+    "keys": [
+      [
+        "up"
+      ],
+      [
+        "down",
+        "ok"
+      ]
+    ],
+    "frames": 128,
+    "distinct_by_flow": [
+      7,
+      10
+    ],
+    "exit": "App io.btype.mergewindow exited: finished; heap peak 87.2 of 128 KiB"
   }
 }
