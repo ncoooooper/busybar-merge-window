@@ -2,6 +2,32 @@
 
 Count open GitLab merge requests, see who needs your review, and check branch divergence. GitHub mode follows one pull request and its checks.
 
+## Screen transitions
+
+Move from the merge verdict to the check count and back to the verdict.
+
+![Merge Window front display. Move from the merge verdict to the check count and back to the verdict.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Merge Window rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
+Move from open merge requests to reviews owed, then to the branch distance and divergence verdict.
+
+![Merge Window front display. Move from open merge requests to reviews owed, then to the branch distance and divergence verdict.](media/guide/screen-transitions-connected.gif)
+
+<details>
+
+<summary>Watch the rear display in connected mode</summary>
+
+![Merge Window rear display during the recorded controls](media/guide/screen-transitions-connected-rear.gif)
+
+</details>
+
 ## From “Ready” to the check count
 
 1. Open Merge Window with your pull request selected in the companion config.
@@ -80,6 +106,6 @@ Turn to BEHIND, then BRANCH. Behind with zero commits ahead can fast-forward. Di
 
 ![The sample branch is three commits behind and has diverged.](media/guide/use-2.gif)
 
-The recordings use example responses on emulator firmware. Each display pixel is enlarged to a 9 × 9 square.
+The recordings use example responses on emulator firmware. Each LED occupies a 16 × 16 cell with a black border.
 
 [GitLab reviewer states](https://docs.gitlab.com/api/graphql/reference/enums/#mergerequestreviewstate) · [Git revision counts](https://git-scm.com/docs/git-rev-list).
