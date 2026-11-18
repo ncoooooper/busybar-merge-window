@@ -7,6 +7,9 @@ def read_pr(o):
     if p.returncode:raise ValueError("GitHub CLI cannot read the selected PR")
     return json.loads(p.stdout)
 def snapshot(o,m):
+    if o.get("mode") == "gitlab":
+        from live import reading
+        return reading(o,m)
     data=read_pr(o);checks=data.get("statusCheckRollup") or []
     def outcome(c):
         return str(c.get("conclusion") or c.get("state") or c.get("status") or "UNKNOWN").upper()

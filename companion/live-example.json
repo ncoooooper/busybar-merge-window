@@ -1,0 +1,8 @@
+{
+  "mode": "gitlab",
+  "host": "https://gitlab.com",
+  "project": "group/project",
+  "checkout": "~/projects/project",
+  "branch": "feature/clock",
+  "upstream": "origin/main"
+}
