@@ -8,9 +8,9 @@
     "ok"
   ],
   "frames": 54,
-  "distinct_frames": 13,
+  "distinct_frames": 14,
   "exit": "App io.ncoooooper.mergewindow exited: finished; heap peak 81.9 of 128 KiB",
-  "sha256": "16525ca5630ecdae5129a93fc61dcedd4b14cea3e558323f2161070cf4d6bf03",
+  "sha256": "50ebb9073b0461a94bf336ddf72c00fab9da629e781064c9cbc5b96ecce74bc0",
   "pages": [
     {
       "caption": "MERGE WINDOW",
