@@ -1,0 +1,6 @@
+{
+  "category": "dev-monitoring",
+  "short_description": "Identify the remaining review, failing check or merge-state condition on one GitHub pull request.",
+  "description": "Identify the remaining review, failing check or merge-state condition on one GitHub pull request. Configure repo and pr. Install and sign in to GitHub CLI with read access to that repository. It reads gh pr view fields from your selected PR and never merges or writes. By default an approving review is required by this dashboard even in a repository with optional reviews. Set require_review to false to defer to GitHub's review decision.",
+  "changelog": "First public version."
+}

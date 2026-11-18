@@ -4,6 +4,6 @@
   "name": "Merge Window",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Merge Window",
+  "description": "Identify the remaining review, failing check or merge-state condition on one GitHub pull request.",
   "author": "ncoooooper"
 }

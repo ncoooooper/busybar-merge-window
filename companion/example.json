@@ -1,0 +1,5 @@
+{
+  "repo": "OWNER/REPO",
+  "pr": 1,
+  "require_review": true
+}

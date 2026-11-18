@@ -2,7 +2,7 @@
   "name": "busybar-merge-window",
   "private": true,
   "version": "0.1.0",
-  "description": "Merge Window",
+  "description": "Identify the remaining review, failing check or merge-state condition on one GitHub pull request.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {
